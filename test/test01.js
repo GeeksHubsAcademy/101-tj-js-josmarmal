@@ -17,8 +17,6 @@ function clasificaElementos(index) {
    
        // Formateo de datos a retornar
        let Npos = (Npositivos.length/index.length).toFixed(4);
-       let Nneg = (Nnegativos.length/index.length).toFixed(4);
-       let Nzer = (Nzero.length/index.length).toFixed(4);
    
        // return de datos formato predefinido
        return [Npos,Nneg,Nzer];
